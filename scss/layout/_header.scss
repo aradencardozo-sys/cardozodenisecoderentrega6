@@ -1,0 +1,48 @@
+@use "..//utilities/variables" as*;
+
+.logo-marca {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+}
+
+.logo-img{
+    width: 80´px;
+    height: auto;
+}
+
+header {
+    background-color: $color-negro;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    p{
+        color: $color-blanco;
+        font-family: $font-detalles;
+        font-weight: 800;
+        font-style: normal;
+    }
+    a{
+        color: $color-naranja;
+        text-decoration: none;
+        font-family: $font-cuerpo;
+        font-optical-sizing: auto;
+        font-weight: 200;
+        font-style: italic;
+        transition: all 0.3s ease;
+
+        &:hover,
+        &:focus {
+            color: $color-blanco;
+        }
+
+        &:active {
+            color: $color-naranja;
+            transform: scale(0.96);
+        }
+    }
+
+}
+

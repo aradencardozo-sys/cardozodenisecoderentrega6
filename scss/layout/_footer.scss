@@ -1,0 +1,30 @@
+@use "../utilities/variables" as*;
+
+footer{
+    background-color: $color-grisfooter;
+    font-family: $font-cuerpo;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+
+    p{
+        display: flex;
+        align-items: center;
+        gap: 8px;
+    }
+    img{
+        width: 24px;
+        height: auto;
+    }
+
+    @media (max-width: 768px) {
+        flex-direction: column;
+        gap: 15px;
+        text-align: center;
+        padding: 20px;
+    }
+}

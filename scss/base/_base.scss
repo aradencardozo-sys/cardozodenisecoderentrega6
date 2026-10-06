@@ -1,0 +1,22 @@
+@use "../utilities/variables" as*;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: boder-box;
+}
+
+body {
+    background-color: $color-blanco;
+    min-height: 100vh;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+}
+
+ul{
+    list-style: none;
+}
+
+.textocentro {
+    text-align: center;
+}
