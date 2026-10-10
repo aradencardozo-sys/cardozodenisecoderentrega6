@@ -4,4 +4,7 @@
     align-items: center;
 }
 
-//mixin flex 
+@mixin imagen-ajuste($alto, $ajuste: cover){
+    height: $alto;
+    object-fit: $ajuste;
+}

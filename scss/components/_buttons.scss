@@ -1,0 +1,20 @@
+%boton-base{
+    display: inline-block;
+    padding: 10px 22px;
+    border-radius: 6px;
+    font-weight: 600;
+    text-decoration: none;
+    text-align: center;
+    transition: all 0.3s ease;
+    border: none;
+}
+
+.btn.btn-primary{
+    @extend %boton-base;
+    background-color: #d67f0e;
+    color: #111;
+
+    &:hover{
+        background-color: #111;
+    }
+}

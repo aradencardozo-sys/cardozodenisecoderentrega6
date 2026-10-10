@@ -130,11 +130,10 @@
 }
 
 .carousel-item img {
-    height: 500px;
-    object-fit: cover;
+    @include imagen-ajuste (400px);
     border-radius: 8px;
 
     @media (max-width: 768px){
-        height: 280px;
+        @include imagen-ajuste(280px);
     }
-}
+} 
