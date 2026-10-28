@@ -73,6 +73,21 @@ header {
             transform: scale(0.96);
         }
     }
+    @media (max-width: 576px){
+        h1{
+            font-size: 1.5rem;
+            white-space: nowrap;
+            margin: 0;
+            line-height: 1;
+            display: flex;
+            align-items: center;
+        }
+        .logo-img{
+             height: 30px;
+             width: auto;
+             object-fit: contain;
+        }
+    }
 
 }
 

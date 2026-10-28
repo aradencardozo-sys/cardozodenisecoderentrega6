@@ -60,9 +60,23 @@
 
 //pagina nosotros y sale
 
-#perchero {
-    max-width: 100%;
-    height: auto;
+#perchero{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url('../assets/blacklab1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #ffffff;
+    padding: 2rem;
+    border-radius: 8px;
+    margin: 0;
+
 }
 
 #sale {

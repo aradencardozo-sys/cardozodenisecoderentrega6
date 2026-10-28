@@ -2,27 +2,21 @@
 
 h1{
     color: $color-blanco;
-    font-family: $font-titulos;
+    font-family: $font-detalles;
     font-weight: 900;
     font-size: 80px;
     margin-left: 20px;
     font-style: normal;
 }
 
-h2,h3,h4, .card-title{
-    font-family: $font-titulos;
-    font-weight: 800;
-    font-style: normal;
-    color: $color-negro;
-}
-
-.cardtitle1{
-    font-family: $font-titulos;
+h2,h3,h4, .card-title, .card-colaboracion{
+    font-family: $font-detalles;
     font-weight: 600;
     font-style: normal;
+    font-size:larger;
     color: $color-negro;
-
 }
+
 main{
     p, .card-text{
         font-family: $font-cuerpo;
@@ -35,5 +29,15 @@ main{
         font-optical-sizing: auto;
         font-weight: 200;
         font-style: normal;
+    }
+}
+
+figure figcaption .piedepagina{
+    font-family: $font-detalles;
+}
+
+footer{
+    p{
+        margin-bottom: auto;
     }
 }
