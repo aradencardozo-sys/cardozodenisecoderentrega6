@@ -9,3 +9,6 @@ html semántico. css, sass, bootstrap, animaciones y diseño responsive
 
 # SECCIONES
 Inicio, Cápsulas, Contacto, Nosotros, Sale
+
+# PAGINA NETLIFY
+https://blacklabindumentaria.netlify.app/
